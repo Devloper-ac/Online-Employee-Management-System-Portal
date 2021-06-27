@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <!--<androidx.cardview.widget.CardView
+        android:id="@+id/crdOwner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageViewpurchase"
+                android:layout_width="wrap_content"
+                android:layout_height="173dp"
+
+                tools:srcCompat="@tools:sample/avatars" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/txtnamepurchase"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/txtnumberpurchase"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/txtemailpurchase"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/txtdatepurchase"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/txtspinnerpurchase"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/txtpincodepurchase"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/txtstatepurchase"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/txtdistrictpurchase"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/txtcitypurchase"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/txtaddresspurchase"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/txtlandmarkpurchase"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/txteidpurchase"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>-->
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/crdOwner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageViewpurchase"
+                android:layout_width="150dp"
+                android:layout_margin="5dp"
+                android:layout_height="match_parent"
+                tools:srcCompat="@tools:sample/avatars" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="81dp"
+                        android:textSize="15sp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="serif-monospace"
+                        android:text="Name" />
+
+                    <TextView
+                        android:id="@+id/txtnamepurchase"
+                        android:layout_width="match_parent"
+                        android:fontFamily="serif-monospace"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="81dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="serif-monospace"
+                        android:text="Mobile " />
+
+                    <TextView
+                        android:id="@+id/txtnumberpurchase"
+                        android:layout_width="match_parent"
+                        android:fontFamily="serif-monospace"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="81dp"
+                        android:fontFamily="serif-monospace"
+                        android:layout_height="wrap_content"
+                        android:text="Email"
+                        />
+
+                    <TextView
+                        android:id="@+id/txtemailpurchase"
+                        android:layout_width="match_parent"
+                        android:fontFamily="serif-monospace"
+                        android:layout_height="wrap_content" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="81dp"
+                        android:fontFamily="serif-monospace"
+                        android:layout_height="wrap_content"
+                        android:text="Date"
+                        />
+
+                    <TextView
+                        android:id="@+id/txtdatepurchase"
+                        android:layout_width="match_parent"
+                        android:fontFamily="serif-monospace"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="81dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="serif-monospace"
+                        android:text="Depart" />
+
+                    <TextView
+                        android:id="@+id/txtspinnerpurchase"
+                        android:layout_width="match_parent"
+                        android:fontFamily="serif-monospace"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="81dp"
+                        android:fontFamily="serif-monospace"
+                        android:layout_height="wrap_content"
+                        android:text="Pincode"
+                        />
+
+                    <TextView
+                        android:id="@+id/txtpincodepurchase"
+                        android:layout_width="match_parent"
+                        android:fontFamily="serif-monospace"
+                        android:layout_height="wrap_content" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="81dp"
+                        android:fontFamily="serif-monospace"
+                        android:layout_height="wrap_content"
+                        android:text="State"
+                        />
+
+                    <TextView
+                        android:id="@+id/txtstatepurchase"
+                        android:layout_width="match_parent"
+                        android:fontFamily="serif-monospace"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="81dp"
+                        android:fontFamily="serif-monospace"
+                        android:layout_height="wrap_content"
+                        android:text="District"
+                        />
+
+                    <TextView
+                        android:id="@+id/txtdistrictpurchase"
+                        android:layout_width="match_parent"
+                        android:fontFamily="serif-monospace"
+                        android:layout_height="wrap_content" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="81dp"
+                        android:fontFamily="serif-monospace"
+                        android:layout_height="wrap_content"
+                        android:text="City"
+                        />
+
+                    <TextView
+                        android:id="@+id/txtcitypurchase"
+                        android:layout_width="match_parent"
+                        android:fontFamily="serif-monospace"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="81dp"
+                        android:fontFamily="serif-monospace"
+                        android:layout_height="wrap_content"
+                        android:text="Address"
+                        />
+
+                    <TextView
+                        android:id="@+id/txtaddresspurchase"
+                        android:layout_width="match_parent"
+                        android:fontFamily="serif-monospace"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="81dp"
+                        android:fontFamily="serif-monospace"
+                        android:layout_height="wrap_content"
+                        android:text="Landmark"
+                        />
+
+                    <TextView
+                        android:id="@+id/txtlandmarkpurchase"
+                        android:layout_width="match_parent"
+                        android:fontFamily="serif-monospace"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="81dp"
+                        android:fontFamily="serif-monospace"
+                        android:layout_height="wrap_content"
+                        android:text="EID"
+                        />
+
+                    <TextView
+                        android:id="@+id/txteidpurchase"
+                        android:layout_width="match_parent"
+                        android:fontFamily="serif-monospace"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>

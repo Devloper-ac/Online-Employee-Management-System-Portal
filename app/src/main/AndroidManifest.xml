@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.igc.capstone_automative">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ac"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CapStone_Automative">
+        <activity android:name=".Delete_Employee_Activity"></activity>
+        <activity android:name=".Test_Activity"></activity>
+        <activity android:name=".Tools_Department_Activity" />
+        <activity android:name=".Account_Department_Activity" />
+        <activity android:name=".Research_Department_Activity" />
+        <activity android:name=".Quality_Department_Activity" />
+        <activity android:name=".Production_Department_Activity" />
+        <activity android:name=".Process_Department_Activity" />
+        <activity android:name=".Maintenance_Department_Activity" />
+        <activity android:name=".Purchase_Department_Activity" />
+        <activity android:name=".Store_Department_Activity" />
+        <activity android:name=".Sales_Marketing_Activity" />
+        <activity android:name=".Update_Delete_Employees" />
+        <activity android:name=".View_Employee_Activity" />
+        <activity android:name=".Add_Employee_Activity" />
+        <activity android:name=".DashBoard_Activity" />
+        <activity android:name=".Demo" />
+        <activity android:name=".ForgotPassword" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
